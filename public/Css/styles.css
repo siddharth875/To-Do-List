@@ -1,0 +1,89 @@
+body {
+  background-color: lavender;
+  font-family: serif;
+  font-size: medium;
+  color: rgb(121, 121, 216);
+  margin: 1rem 3rem;
+}
+
+nav {
+  margin-left: 0;
+  padding: 0;
+}
+nav ul {
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+nav ul li {
+  padding: 1rem 1rem 1rem 0;
+}
+nav ul a {
+  color: rgb(111, 118, 221);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(59, 71, 230);
+}
+
+main {
+  text-align: center;
+}
+main div {
+  display: inline-block;
+}
+main div header {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: rgb(121, 121, 216);
+  color: lavender;
+}
+main div header h1 {
+  margin: 0;
+}
+main div .item {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+main div .item input:focus {
+  outline: none;
+}
+main div .item input {
+  border-style: none;
+  border: none;
+  text-align: center;
+  font-size: large;
+}
+main div .item button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(121, 121, 216);
+  font-size: 1.7rem;
+  color: white;
+}
+main div .item button:hover {
+  background-color: rgb(175, 175, 255);
+}
+main div .item .newItem {
+  display: block;
+  text-align: left;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgb(241, 241, 241);
+  padding: 0.5rem 1rem 1rem;
+  margin-bottom: 1rem;
+}
+main div .item .newItem span {
+  margin-left: 0.5rem;
+}
+
+.done {
+  text-decoration-line: line-through;
+}/*# sourceMappingURL=styles.css.map */
